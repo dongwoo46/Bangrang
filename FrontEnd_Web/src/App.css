@@ -1,0 +1,31 @@
+/* 전역변수 관리 css */
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
+}
+body {
+  overflow-x: hidden;
+}
+
+.App::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  padding: 0 10%;
+  height: 80px;
+  background-color: white;
+  margin: 0;
+}

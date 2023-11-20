@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "TMONBlack";
+  src: url("./TMONBlack.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "TMONBlack";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-drag: none;
+  user-select : none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
